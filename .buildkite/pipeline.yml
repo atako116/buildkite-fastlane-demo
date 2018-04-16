@@ -4,8 +4,6 @@ steps:
   - label: ":swift: unit tests"
     command: ".buildkite/unit_tests.sh"
     timeout: "2"
-    agents:
-      xcode_major: '9'
   - label: ":grin: goodbye"
     command: echo "Goodbye cruel world"
   - label: ":whatever: hi"
