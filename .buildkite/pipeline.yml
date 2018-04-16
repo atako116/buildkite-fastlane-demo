@@ -9,4 +9,4 @@ steps:
   - label: ":grin: goodbye"
     command: echo "Goodbye cruel world"
   - label: ":whatever: hi"
-    command: "say_hi.sh"
+    command: ".buildkite/say_hi.sh"
