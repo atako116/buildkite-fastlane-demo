@@ -1,14 +1,14 @@
 #!/bin/bash
 
-set -eu
+# set -eu
 
 echo "--- :gem: Bundling gems"
-gem install bundler
-bundle install
+# gem install bundler
+# bundle install
 
-echo "--- :buildkite: Setting version metadata"
-VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "../Buildkite Fastlane Demo/Resources/Base.lproj/Info.plist")
-buildkite-agent meta-data set "version" "${VERSION}"
-
-echo "--- :fastlane: Running unit tests"
-bundle exec fastlane test
+#echo "--- :buildkite: Setting version metadata"
+#VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "../Buildkite Fastlane Demo/Resources/Base.lproj/Info.plist")
+#buildkite-agent meta-data set "version" "${VERSION}"
+#
+#echo "--- :fastlane: Running unit tests"
+#bundle exec fastlane test
