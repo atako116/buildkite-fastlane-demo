@@ -1,3 +1,6 @@
 steps:
-  - label: ":fastlane: test"
-    command: "bundle install && bundle exec fastlane test"
+  - label: ":swift: unit tests"
+    command: "sh .buildkite/unit_test.sh"
+    timeout: "20"
+    agents:
+      xcode_major: '9'
