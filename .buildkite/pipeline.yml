@@ -1,6 +1,6 @@
 steps:
   - label: ":swift: unit tests"
     command: "sh .buildkite/unit_test.sh"
-    timeout: "20"
+    timeout: "2"
     agents:
       xcode_major: '9'
