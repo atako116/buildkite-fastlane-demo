@@ -1,4 +1,6 @@
 steps:
+  - label: ":anger: Hello, World"
+    command: echo "Hello, World!"
   - label: ":swift: unit tests"
     command: ".buildkite/unit_tests.sh"
     timeout: "2"
