@@ -1,8 +1,10 @@
 steps:
-  - label: ":anger: Hello, World"
+  - label: ":anger: hello"
     command: echo "Hello, World!"
   - label: ":swift: unit tests"
     command: ".buildkite/unit_tests.sh"
     timeout: "2"
     agents:
       xcode_major: '9'
+  - label: ":grin: goodbye"
+    command: echo "Goodbye cruel world"
