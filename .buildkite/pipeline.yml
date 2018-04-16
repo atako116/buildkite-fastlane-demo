@@ -8,3 +8,5 @@ steps:
       xcode_major: '9'
   - label: ":grin: goodbye"
     command: echo "Goodbye cruel world"
+  - label: ":whatever: hi"
+    command: "say_hi.sh"
