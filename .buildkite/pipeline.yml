@@ -1,5 +1,5 @@
 steps:
-  - label: ":swift: unit tests"
+  - name: ":swift: unit tests"
     command: "sh .buildkite/unit_tests.sh"
     timeout: "2"
     agents:
