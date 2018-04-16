@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # set -eu
 
 echo "--- :gem: Bundling gems"
