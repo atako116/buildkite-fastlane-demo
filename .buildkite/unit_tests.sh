@@ -3,6 +3,7 @@
 set -eu
 
 echo "--- :gem: Bundling gems"
+gem install bundler
 bundle install
 
 echo "--- :buildkite: Setting version metadata"
